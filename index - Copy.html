@@ -1,0 +1,32 @@
+<!-- www/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProofPoint</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { background: black; color: #0f0; font-family: monospace; }
+    #proofSection { margin-top: 20px; }
+    textarea { width: 90%; height: 80px; background: #111; color: #0f0; border: 1px solid #0f0; }
+    button { padding: 8px 16px; margin-top: 10px; background: #0f0; color: #000; border: none; cursor: pointer; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+  </style>
+</head>
+<body>
+  <div id="appContainer">
+    <h1>ProofPoint</h1>
+    <div id="proofSection">
+      <textarea id="proofText" placeholder="Enter proof text"></textarea>
+      <button id="submitBtn">Submit Proof</button>
+    </div>
+    <div id="historySection">
+      <h3>Submission History:</h3>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

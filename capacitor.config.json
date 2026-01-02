@@ -1,0 +1,6 @@
+{
+  "appId": "com.proofpoint.app",
+  "appName": "proofpoint",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
