@@ -1,3 +1,6 @@
+import PublicLegitimacyCheck from "./PublicLegitimacyCheck";
+
+<PublicLegitimacyCheck />
 import StolenDeviceReport from "./StolenDeviceReport";
 import React from "react";
 import DeviceCard from "./DeviceCard";
