@@ -1,3 +1,6 @@
+import CloudBackup from "./CloudBackup";
+
+<CloudBackup />
 import FirebaseDemo from "./FirebaseDemo";
 
 <FirebaseDemo />
