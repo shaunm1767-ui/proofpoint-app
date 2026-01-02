@@ -1,23 +1,24 @@
-import CloudBackup from "./CloudBackup";
+import React from 'react';
+import CloudBackup from './CloudBackup.js';
+import FirebaseDemo from './FirebaseDemo.js';
+import PublicLegitimacyCheck from './PublicLegitimacyCheck.js';
+import StolenDeviceReport from './StolenDeviceReport.js';
+import DeviceCard from './DeviceCard.js';
+import InvoiceUpload from './InvoiceUpload.js';
 
-<CloudBackup />
-import FirebaseDemo from "./FirebaseDemo";
-
-<FirebaseDemo />
-import PublicLegitimacyCheck from "./PublicLegitimacyCheck";
-
-<PublicLegitimacyCheck />
-import StolenDeviceReport from "./StolenDeviceReport";
-import React from "react";
-import DeviceCard from "./DeviceCard";
-import InvoiceUpload from "./InvoiceUpload";
-
-export default function Dashboard() {
-  return (
-    <div>
-      <h1>ProofPoint Dashboard</h1>
-      <DeviceCard deviceName="iPhone 15" serial="12345XYZ" />
-      <InvoiceUpload />
-    </div>
-  );
+function Dashboard() {
+    return (
+        <div>
+            <h1>Dashboard</h1>
+            {/* Placeholder components */}
+            <CloudBackup />
+            <FirebaseDemo />
+            <PublicLegitimacyCheck />
+            <StolenDeviceReport />
+            <DeviceCard />
+            <InvoiceUpload />
+        </div>
+    );
 }
+
+export default Dashboard;
