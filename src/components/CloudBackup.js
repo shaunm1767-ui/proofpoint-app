@@ -1,15 +1,15 @@
 import React from "react";
 
 export default function CloudBackup() {
-  const backup = () => {
-    console.log("Mock backup to cloud triggered");
-    alert("Backup triggered!");
+  const handleBackup = () => {
+    alert("Cloud backup triggered (stub)");
   };
 
   return (
-    <div style={{ border: "1px solid #ccc", padding: "10px", margin: "5px" }}>
+    <div style={{ border: "1px solid #ccc", padding: "12px", marginBottom: "12px" }}>
       <h3>Cloud Backup</h3>
-      <button onClick={backup}>Trigger Backup</button>
+      <p>Secure backup of device ownership data.</p>
+      <button onClick={handleBackup}>Trigger Backup</button>
     </div>
   );
 }
