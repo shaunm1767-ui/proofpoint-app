@@ -1,3 +1,6 @@
+import FirebaseDemo from "./FirebaseDemo";
+
+<FirebaseDemo />
 import PublicLegitimacyCheck from "./PublicLegitimacyCheck";
 
 <PublicLegitimacyCheck />
