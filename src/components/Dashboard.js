@@ -1,3 +1,4 @@
+import StolenDeviceReport from "./StolenDeviceReport";
 import React from "react";
 import DeviceCard from "./DeviceCard";
 import InvoiceUpload from "./InvoiceUpload";
